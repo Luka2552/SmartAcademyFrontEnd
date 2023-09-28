@@ -1,0 +1,326 @@
+body {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+header {
+  background-color: #0020f4;
+  color: #fff;
+  width: 100%;
+  height: 300px;
+  z-index: -1;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top: 0;
+}
+
+.logo {
+  width: 115px;
+  height: 65px;
+  padding-bottom: 100px;
+  margin-left: 20px;
+}
+
+.header_logo_img {
+  padding-bottom: 150px;
+  max-width: 150px;
+}
+
+nav ul {
+  list-style-type: none;
+
+  display: flex;
+  padding-bottom: 150px;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.contact_us_button {
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  color: #171717;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.headers {
+  display: flex;
+  align-items: center;
+  padding-left: 900px;
+}
+
+.about_us {
+  width: 100px;
+}
+
+.pic_of_91 {
+  width: 1195px;
+  height: 600px;
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #171717;
+  text-transform: uppercase;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    28px/34px var(--unnamed-font-family-helvetica-neue);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-171717);
+  text-align: left;
+  font: normal normal bold 28px/34px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #171717;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-left: 350px;
+}
+
+.pics_of_projects {
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+section ul {
+  list-style-type: none;
+  display: flex;
+}
+
+section li {
+  margin-right: 20px;
+}
+
+.pic_of_92,
+.pic_of_93,
+.pic_of_94,
+.pic_of_95,
+.pic_of_96 {
+  max-width: 100%;
+  height: auto;
+  height: 219px;
+}
+
+.paragraphs {
+  max-width: 1000px;
+  align-items: center;
+  text-align: center;
+  margin-left: 470px;
+}
+
+p {
+  margin: 0 auto;
+  font-size: 1.5rem;
+  text-align: left;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
+    var(--unnamed-line-spacing-26)
+    var(--unnamed-font-family-helveticaneueltgeow82-55rm);
+  font: normal normal normal 16px/26px HelveticaNeueLTGEOW82-55Rm;
+  letter-spacing: 0px;
+  color: #171717;
+  padding-top: 10px;
+  line-height: 35px;
+  padding-bottom: 10px;
+}
+
+.more_infor {
+  margin-left: 800px;
+}
+
+.information {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: white;
+  background-color: #0020f4;
+  padding: 1rem 2rem;
+  border: 1px solid #f7f7f7;
+  border-radius: 10rem;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #0020f4;
+  color: #fff;
+  margin-top: 200px;
+}
+
+h2 {
+  margin-left: 120px;
+}
+
+.map {
+  max-width: 500px;
+  margin-left: 60px;
+  padding-top: 50px;
+}
+
+.contact_map {
+  float: left;
+  padding-top: 200px;
+}
+
+.footer_paragraph {
+  width: 420px;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  height: 800px;
+  margin-left: 1200px;
+}
+
+.number_and_email {
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+.phone {
+  width: 50px;
+}
+
+.mail {
+  width: 50px;
+}
+
+.email {
+  margin-left: 10px;
+}
+
+.tnumber {
+  padding-right: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-form h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.contact-button {
+  background: #ffffff;
+  border: 1px solid #f7f7f7;
+  border-radius: 10rem;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #171717;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 200px;
+}
+
+.contact-button:hover {
+  background: #171717;
+  color: #fff;
+}
+
+.finish {
+  margin-top: 200px;
+  padding-bottom: 100px;
+  margin-left: 100px;
+}
+
+:root {
+  --unnamed-color-171717: #171717;
+  --unnamed-color-ffffff: #ffffff;
+  --unnamed-color-0a22f4: #0a22f4;
+  --unnamed-font-family-helvetica-neue: Helvetica Neue;
+  --unnamed-font-family-helveticaneueltgeow82-55rm: HelveticaNeueLTGEOW82-55Rm;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-18: 18px;
+  --unnamed-font-size-32: 32px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-22: 22px;
+  --unnamed-line-spacing-26: 26px;
+  --unnamed-line-spacing-39: 39px;
+  --unnamed-text-transform-uppercase: uppercase;
+}
+
+.unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-helvetica-neue);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-18);
+  line-height: var(--unnamed-line-spacing-22);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-171717);
+  text-transform: var(--unnamed-text-transform-uppercase);
+}
+.unnamed-character-style-2 {
+  font-family: var(--unnamed-font-family-helveticaneueltgeow82-55rm);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-26);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-171717);
+}
+.unnamed-character-style-3 {
+  font-family: var(--unnamed-font-family-helvetica-neue);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-32);
+  line-height: var(--unnamed-line-spacing-39);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-171717);
+  text-transform: var(--unnamed-text-transform-uppercase);
+}
